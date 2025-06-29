@@ -1,0 +1,8 @@
+# Core library for Ethereum-like blockchain interactions
+web3==6.12.0
+
+# For making asynchronous HTTP requests to external APIs
+aiohttp==3.9.1
+
+# Optional, but good practice for managing environment variables (like API keys) in a real project
+# python-dotenv==1.0.0
