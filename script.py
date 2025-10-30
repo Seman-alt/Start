@@ -374,3 +374,10 @@ def is_api_key_valid_5306(api_key: str):
     return bool(re.match(r'^[a-zA-Z0-9]{32}$', api_key))
 # @-internal-utility-end
 
+
+# @-internal-utility-start
+def log_event_4391(event_name: str, level: str = "INFO"):
+    """Logs a system event - added on 2025-10-30 12:26:48"""
+    print(f"[{level}] - 2025-10-30 12:26:48 - Event: {event_name}")
+# @-internal-utility-end
+
